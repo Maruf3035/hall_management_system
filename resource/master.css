@@ -1,0 +1,476 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color:white;
+    background-image: url(images/hd3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    min-height: 70px;
+    border-bottom: 2px solid #bf1b1b;
+}
+
+.navbar-inverse {
+    background-color: rgba(0,0,0,.8)!important;
+}
+
+.navbar-brand {
+    height: 70px;
+}
+
+.navbar-nav {
+    margin-top: 12px;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: greenyellow!important;
+    background-color: transparent!important;
+    border: 1px solid #888!important;
+    border-radius: 5px!important;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-nav > li {
+    margin: 5px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: greenyellow!important;
+    background-color: transparent!important;
+    border: 1px solid #888!important;
+    border-radius: 5px!important;
+}
+.navbar-inverse a{
+    font-size: 18px!important;
+    font-family: "Arial Black";
+}
+
+.dropdown-menu {
+    background-color: rgba(0,0,0,.8);
+    margin-top:50px;
+}
+.dropdown-menu>li>a{
+    color:#ddd!important;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+    color:#000!important;
+}
+
+
+/**------------------------------------------------ Start Model css from here ------------------------------------------------*/
+.modal-content{
+    top: 160px;
+    background-color: rgba(15, 188, 255, 0.55);
+    padding: 10%;
+    color: red;
+    font-size: 20px;
+}
+/**------------------------------------------------ End Model css from here ------------------------------------------------*/
+
+
+
+
+/**------------------------------------------------ Start Main Slider css from here ------------------------------------------------*/
+.main_slider_inner {
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+    border-radius: 10px;
+    bottom: 10%;
+    margin-left: 100px;
+    padding: 10px 40px;
+    position: absolute;
+    width: 50%;
+    margin-top: -30px;
+}
+.main_slider_title {
+    color: #FF1;
+    text-shadow: 2px 2px 2px #035;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.main_slider_summary {
+    color: #FF1;
+    line-height: 30px;
+    font-weight:bold;
+    text-shadow: 3px 3px 4px #000;
+}
+.mail_slider_btn{
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(6, 6, 6, 0.52);
+    border-color: #a28c8c;
+}
+.mail_slider_btn:hover{
+    background-color: rgba(255, 255, 255, 0.52);
+    color: #000;
+    border-color: #fff;
+}
+
+
+/**------------------------------------------------ End Main Slider css from here ------------------------------------------------*/
+
+/**------------------------------------------------ Start Avilable convention hall-scs css from here ------------------------------------------------*/
+
+.available_convention_title {
+    background: cornflowerblue;
+    padding: 20px;
+    color: #fff;
+    text-align:center;
+    border-radius: 60px;
+}
+
+.hall_list {
+    background: rgba(60, 60, 60, 0.5) none repeat scroll 0 0;
+    color: #d8d4d4;
+}
+.single_hall{
+    border-bottom:2px solid #222;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.single_hall_image{
+    margin-right: 5px;
+}
+
+.hall_title a {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.hall_summary_box{
+    padding:5px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.summary_btn{
+    margin: 5px;
+}
+
+/**------------------------------------------------ End Avilable convention hall-scs css from here ------------------------------------------------*/
+
+
+/**------------------------------------------------ Start Client Logo css from here ------------------------------------------------*/
+.client_logo_heading {
+    background: grey;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-shadow: 2px 2px 2px #000;
+   ;
+}
+.pagination > li > a, .pagination > li > span {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: green;
+    border-color: #fff;
+}
+/**------------------------------------------------ End Client Logo css from here ------------------------------------------------*/
+
+
+/**------------------------------------------------ start scroll top css from here ------------------------------------------------*/
+.scrollToTop {
+    width: 50px;
+    height: 70px;
+    text-align: center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+    display: none;
+    background: url('../resource/images/t1.png') no-repeat 0px 20px;
+}
+
+.scrollToTop:hover{
+    text-decoration:none;
+}
+/**------------------------------------------------ End scroll top css from here ------------------------------------------------*/
+
+/**------------------------------------------------ start Book Now Page css from here ------------------------------------------------*/
+
+.tableBackground {
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 13px;
+    padding: 10px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.tableBackground table tr td{
+    vertical-align: middle;
+}
+
+.input{
+    background-color: transparent;
+    border: transparent;
+    margin: 5px;
+    padding: 5px;
+}
+
+.button{
+    margin-top: 30px;
+}
+#submitHallForm{
+ margin-top: 30px;
+}
+/**------------------------------------------------ end of Book Now Page css from here ------------------------------------------------*/
+
+
+/**------------------------------------------------ start Hall Details  Page css from here ------------------------------------------------*/
+
+.formInput{
+    background-color:white;
+    color: #0f0f0f;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 5px;
+    height: 40px;
+}
+.hallTable td {
+    padding: 10px;
+}
+.checkbox {
+    padding-left: 30px;
+}
+
+.checkBoxHover:hover{
+    cursor: pointer!important;
+}
+
+/**------------------------------------------------ End of Hall Details  Page css from here ------------------------------------------------*/
+
+/**------------------------------------------------ View Page css start ------------------------------------------------*/
+#hallInformation{
+    background-color: rgba(0,0,0,.5);
+    text-align: justify;
+}
+.hallName{
+    line-height: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 3px 2px 7px #000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+.serviceTitle{
+    text-align: center;
+    background-color: #337ab7;
+    color:#fff;
+    padding:5px;
+}
+.hallDetails{
+    margin: 0 0 10px;
+    color: #eee;
+    font-size: 14px;
+    line-height: 25px;
+}
+.hallDetailsHR{
+    border-color: #245e90;
+    border-width: 2px;
+}
+.hallDetailsItem{
+    color:#fff;
+}
+.hallDetailsItem tr:hover .hallDetailsItem{
+    color:red;
+}
+.table-hover tr:hover{
+    background:#6f1f1f!important;
+    cursor:pointer;
+}
+
+/**------------------------------------------------ View Page css End ------------------------------------------------*/
+/* calendar */
+table.calendar		{ border-left:1px solid #999; }
+tr.calendar-row	{  }
+td.calendar-day	{ min-height:100px;  position:relative; } * html div.calendar-day { height:100%; }
+td.calendar-day:hover	{ background:#eceff5; }
+td.calendar-day-np	{ background:#eee; min-height:100px; } * html div.calendar-day-np { height:80px; }
+td.calendar-day-head { background:#ccc; font-weight:bold; text-align:center; width:200px; padding:5px; border-bottom:1px solid #999; border-top:1px solid #999; border-right:1px solid #999; }
+div.day-number		{ background:#999; padding:5px; color:#fff; font-weight:bold; float:right; margin:-5px -5px 0 0; width:20px; text-align:center; }
+/* shared */
+td.calendar-day, td.calendar-day-np { width:120px; padding:5px; border-bottom:1px solid #999; border-right:1px solid #999; }
+
+
+/**------------------------------------------------ start Invoice Page css from here ------------------------------------------------*/
+
+.invoiceCustomer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.invoiceCompany{
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.invoiceBill{
+    border: 2px solid gray;
+    padding: 5px;
+    padding-left: 20px;
+}
+.bill{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.bill td{
+    padding: 5px 20px 5px 20px;
+}
+.invoiceTable{
+    border: 2px solid gray;
+    margin: 10px;
+    width: 100%;
+    font-size: 15px;
+}
+.invoiceTable th {
+    height: 35px;
+    background-color: rgba(4,25,30,0.74);
+    padding-left: 20px;
+}
+.invoiceTable td {
+    height: 35px;
+    padding-left: 20px;
+}
+.invoiceTotal {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    width: 30%;
+}
+.invoiceTotal tr{
+    height: 35px;
+}
+
+/**** -------------------- main footer------------------------- **/
+.footer_top{
+    background-color: #2c3c44;
+    color:#fff;
+    padding-bottom:20px;
+}
+.footer_top h3{
+    border-bottom: 1px solid #fff;
+    text-align:center;
+    padding-bottom:5px;
+    margin-bottom:25px;
+}
+
+.footer_top a{
+    color:#fff;
+}
+
+.footer_top i{
+    margin-right:10px;
+    width:8px;
+}
+
+.footer_bottom{
+    border-top:2px solid #bf1b1b;
+    background:#000;
+    padding-top:20px;
+    color:#fff;
+}
+
+.copyright_text{
+    padding-top:15px;
+}
+
+.codemasons_social_sites{}
+.codemasons_social_sites a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #31708f;
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    color:#000;
+}
+
+.codemasons_social_sites a:hover{
+    color:#fff;
+}
+#searchID{
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+
+}
+#checkbox{
+height: 20px;
+    width:20px;
+    border-radius: 8px;
+}
+/**** -------------------- about us------------------------- **/
+.about {
+
+    text-align: justify;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #9a9898;
+    border: solid 2px whitesmoke;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.about h1{
+    text-align: center;
+    color: black;
+    font-weight:bold;
+    font-size: 44px;
+}
+
+
+
+/** =================  contact page css  ============================ **/
+#contactContainer{
+    background:rgba(255,255,255,.8);
+}
+#contactContainer #contactAddress{
+    margin-top: 0px;
+}
+#contactContainer hr{
+    margin-top: 0px;
+}
+
+
+/** =================  contact page css  ============================ **/
+/** =================  Nevbar margin page css  ============================ **/
+.forTopMargin {
+    margin-top: 110px;
+}
+/** =================  Nevbar margin page css  ============================ **/
+
+#message {
+    font-size: 20px;
+    color: #6f1f1f;
+    line-height: 30px;
+}
